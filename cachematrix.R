@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = numeric()) {      # input x will be an invertibl
              getinverse = getinverse)   #   the internal functions.                            
 }
 
-# This function computes the inverse of the special "matrix" 
+# The second function, cacheSolve computes the inverse of the special "matrix" 
 # returned by makeCacheMatrix above. 
 # If the inverse has already been calculated (and the matrix has not changed), 
 # then the cacheSolve should retrieve the inverse from the cache.
